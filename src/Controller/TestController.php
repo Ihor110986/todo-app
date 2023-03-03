@@ -8,6 +8,7 @@ use Doctrine\DBAL\Connection;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;
 
+
 class TestController extends AbstractController
 {
     #[Route('/test/db', name: 'test_db')]
